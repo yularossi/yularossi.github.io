@@ -27,7 +27,7 @@
     justify-content: center;
     gap: 0.5em;
     font-style: italic;
-    font-size: larger;
+    font-size: x-large;
   }
 
   .encabezado {
@@ -86,7 +86,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
-    font-size: xx-large;
+    font-size: x-large;
   }
 
   .panel {
@@ -102,7 +102,7 @@
 
   .botones:after {
     content: '\2B'; /* Unicode character for "plus" sign (+) */
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(0, 0, 0);
     float: right;
     margin-left: 15px;
