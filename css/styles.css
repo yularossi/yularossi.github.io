@@ -4,7 +4,7 @@
 
   .menus {
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     place-items: center;
   }
 
@@ -27,22 +27,13 @@
     justify-content: center;
     gap: 0.5em;
     font-style: italic;
-    font-size: xx-large;
+    font-size: larger;
   }
 
-  /*h1 {
-    position: relative;
-    left: 42%;
-    top: 13%;
-    font-style: italic;
+  .encabezado {
+    color: #fff;
+    font-size: larger;
   }
-
-  h2 {
-    position: relative;
-    left: 29%;
-    top: 19%;
-    font-style: italic;
-  }*/
   
   #fotoperfil {
     display: flex;
@@ -90,36 +81,12 @@
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  .hidesobremi {
-    display: none;
-  }
-
-  .hideformacionacademica {
-    display: none;
-  }
-
-  .hideaptitudes {
-    display: none;
-  }
-
-  .hideidiomas {
-    display: none;
-  }
-
-  .hidecontacto {
-    display: none;
-  }
-
-  body {
-    background-image: url("../pictures/1206975.webp");
-  }
-
   .linksancla {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
-    font-size: larger;
+    font-size: xx-large;
   }
 
   .panel {
@@ -130,6 +97,7 @@
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+    font-size: x-large;
   }
 
   .botones:after {
